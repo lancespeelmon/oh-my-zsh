@@ -1,3 +1,4 @@
+# copied from mortalscumbag.zsh-theme
 function my_git_prompt() {
   tester=$(git rev-parse --git-dir 2> /dev/null) || return
   
